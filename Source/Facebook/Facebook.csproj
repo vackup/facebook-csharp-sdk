@@ -13,6 +13,10 @@
     <DefineConstants>TRACE;RELEASE;NETSTANDARD2_0;CODE_ANALYSIS;CODE_ANALYSIS;SIMPLE_JSON_INTERNAL;SIMPLE_JSON_DYNAMIC;SIMPLE_JSON_DATACONTRACT;FLUENTHTTP_URLENCODING;FLUENTHTTP_HTMLENCODING;TPL;ASYNC_AWAIT;FLUENTHTTP_CORE_TPL;FLUENTHTTP_CORE_STREAM;TYPEINFO;;NETSTANDARD2_0</DefineConstants>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="..\GlobalAssemblyInfo.cs" Link="GlobalAssemblyInfo.cs" />
+  </ItemGroup>
+
     <ItemGroup>
     <Content Include="..\CustomDictionary.xml" Link="CustomDictionary.xml" />
   </ItemGroup>
